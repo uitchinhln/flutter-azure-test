@@ -17,6 +17,7 @@ jobs:
       inputs:
         target: apk
         projectDirectory: $(projectDirectory)
+        buildNumber: 1
   
     - task: AndroidSigning@3
       displayName: 'Signing and aligning APK file(s) **/*.apk'
